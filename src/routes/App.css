@@ -1,0 +1,73 @@
+.app-container {
+  background-color: #cccccc;
+}
+
+.content {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.inner-content {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+.outlet-content {
+  width: 90%;
+}
+.inner-content div footer {
+  border: 10px;
+}
+
+.sidebar {
+  min-height: 800px;
+}
+
+.post-card {
+  margin: 20px 50px;
+}
+
+.hashtag {
+  margin: 0px 3px;
+}
+
+.reactions {
+  margin: 15px 0 0 0;
+}
+
+.create-post {
+  /* width: 100%; */
+  margin-top: 50px;
+  margin-left: 50%;
+}
+.store-page {
+  height: 70%;
+  width: 98%;
+  margin-top: 1%;
+  margin-left: 1%;
+  display: flex;
+  flex-direction: column;
+}
+.ag-grid-table {
+  /* height: 70%;
+  width: 98%;
+  margin-top: 1%;
+  margin-left: 1%; */
+  height: 100%;
+  width: 100%;
+}
+.ag-theme-balham .ag-cell {
+  display: flex;
+  align-items: center;
+}
+
+.add-container {
+  margin-top: 2%;
+}
+.welcome-message {
+  margin: 100px 0;
+}
+
+.spinner {
+  margin: 10% 0;
+}
